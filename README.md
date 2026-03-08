@@ -1,5 +1,6 @@
-# feishu-calendar
----
+# Feishu Calendar Skill
+飞书日历操作技能，用于读取、创建、管理飞书日历事件，支持个人和企业日历操作。
+
 - name: feishu-calendar
 - description: 飞书日历管理技能，支持日程查询、创建、更新、删除和重复规则设置，用于个人和企业日历操作。
 - license: MIT
@@ -8,12 +9,7 @@
   - version: "1.0.0"
 - compatibility: Node.js >= 18
 - allowed-tools: web_fetch
----
-
-# Feishu Calendar Skill
-
-飞书日历操作技能，用于读取、创建、管理飞书日历事件，支持个人和企业日历操作。
-
+----
 ## 功能特性
 
 ✅ 获取日历列表  
@@ -212,13 +208,3 @@ console.log('今日日程:', todayEvents.events);
 - [飞书日历 API 文档](https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/calendar-v4/calendar/list)
 - [获取 Access Token](https://open.feishu.cn/document/uAjLw4CM/ukTMukTMukTM/authentication-management/auth-v3/auth-v3-tenant_access_token)
 - [飞书开放平台](https://open.feishu.cn/)
-
-## 更新日志
-
-### v1.0.0 (2026-03-01)
-- ✅ 初始版本发布
-- ✅ 支持日历列表查询
-- ✅ 支持日程增删改查
-- ✅ 支持重复规则设置
-- ✅ 支持多层级提醒
-- ✅ 正确处理全天事件和时区

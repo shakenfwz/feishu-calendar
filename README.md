@@ -1,13 +1,13 @@
 # feishu-calendar
 ---
-name: feishu-calendar
-description: 飞书日历管理技能，支持日程查询、创建、更新、删除和重复规则设置，用于个人和企业日历操作。
-license: MIT
-metadata:
-  author: nuonuo
-  version: "1.0.0"
-compatibility: Node.js >= 18
-allowed-tools: web_fetch
+- name: feishu-calendar
+- description: 飞书日历管理技能，支持日程查询、创建、更新、删除和重复规则设置，用于个人和企业日历操作。
+- license: MIT
+- metadata:
+  - author: nuonuo
+  - version: "1.0.0"
+- compatibility: Node.js >= 18
+- allowed-tools: web_fetch
 ---
 
 # Feishu Calendar Skill
